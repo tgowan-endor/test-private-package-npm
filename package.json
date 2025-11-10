@@ -1,0 +1,24 @@
+{
+  "name": "test-private-package-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@tgowan-endor/helloworld-npm": "1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgowan-endor/test-private-package-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tgowan-endor/test-private-package-npm/issues"
+  },
+  "homepage": "https://github.com/tgowan-endor/test-private-package-npm#readme"
+}
