@@ -1,19 +1,19 @@
 {
   "name": "test-private-package-npm",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Consumer of a private npm package from Google Artifact Registry (Endor GH App probe).",
   "main": "index.js",
   "dependencies": {
-    "@tgowan-endor/helloworld-npm": "1.0.2"
+    "@tgowan-endor/helloworld-npm": "1.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tgowan-endor/test-private-package-npm.git"
   },
-  "keywords": [],
+  "keywords": ["endor-labs", "gar", "probe"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
